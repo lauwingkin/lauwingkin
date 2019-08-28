@@ -7,22 +7,22 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
-<title>设定hexo的「about」遇到的问题 - Wingkin</title>
+<title>设定hexo的「about」页面遇到的问题 - Wingkin</title>
 
 
-    <meta name="description" content="配置新主题后，发觉about界面是没配置的，但是我在创建about页面的过程遇到一些问题，点击链接显示Cannot GET /about/   后来发觉生成指令hexo g 会出错ERROR Process failed: about/index.mdTypeError: Cannot read property ‘utcOffset’ of null上网查，配置文件里timezone我之前设成G">
+    <meta name="description" content="配置新主题后，发觉about界面是没配置的，后来创建about页面的过程遇到一些问题，点击链接显示Cannot GET /about/后来发现 hexo g 会报错ERROR Process failed: about/index.mdTypeError: Cannot read property ‘utcOffset’ of null上网查，配置文件里timezone我之前设成GMT+8是不行的">
 <meta name="keywords" content="hexo">
 <meta property="og:type" content="article">
-<meta property="og:title" content="设定hexo的「about」遇到的问题">
+<meta property="og:title" content="设定hexo的「about」页面遇到的问题">
 <meta property="og:url" content="http://yoursite.com/2019/08/28/设定hexo的about界面遇到的问题/index.html">
 <meta property="og:site_name" content="Wingkin">
-<meta property="og:description" content="配置新主题后，发觉about界面是没配置的，但是我在创建about页面的过程遇到一些问题，点击链接显示Cannot GET /about/   后来发觉生成指令hexo g 会出错ERROR Process failed: about/index.mdTypeError: Cannot read property ‘utcOffset’ of null上网查，配置文件里timezone我之前设成G">
+<meta property="og:description" content="配置新主题后，发觉about界面是没配置的，后来创建about页面的过程遇到一些问题，点击链接显示Cannot GET /about/后来发现 hexo g 会报错ERROR Process failed: about/index.mdTypeError: Cannot read property ‘utcOffset’ of null上网查，配置文件里timezone我之前设成GMT+8是不行的">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://yoursite.com/images/og_image.png">
-<meta property="og:updated_time" content="2019-08-28T02:57:25.415Z">
+<meta property="og:updated_time" content="2019-08-28T03:05:12.770Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="设定hexo的「about」遇到的问题">
-<meta name="twitter:description" content="配置新主题后，发觉about界面是没配置的，但是我在创建about页面的过程遇到一些问题，点击链接显示Cannot GET /about/   后来发觉生成指令hexo g 会出错ERROR Process failed: about/index.mdTypeError: Cannot read property ‘utcOffset’ of null上网查，配置文件里timezone我之前设成G">
+<meta name="twitter:title" content="设定hexo的「about」页面遇到的问题">
+<meta name="twitter:description" content="配置新主题后，发觉about界面是没配置的，后来创建about页面的过程遇到一些问题，点击链接显示Cannot GET /about/后来发现 hexo g 会报错ERROR Process failed: about/index.mdTypeError: Cannot read property ‘utcOffset’ of null上网查，配置文件里timezone我之前设成GMT+8是不行的">
 <meta name="twitter:image" content="http://yoursite.com/images/og_image.png">
 
 
@@ -97,7 +97,7 @@
         <div class="navbar-brand is-flex-center">
             <a class="navbar-item navbar-logo" href="/">
             
-                <img src="/images/logo.svg" alt="设定hexo的「about」遇到的问题" height="28">
+                Wingkin
             
             </a>
         </div>
@@ -109,16 +109,16 @@
                 href="/">主页</a>
                 
                 <a class="navbar-item"
-                href="/archives/">Archives</a>
+                href="/about">关于我</a>
+                
+                <a class="navbar-item"
+                href="/archives/">归档</a>
                 
                 <a class="navbar-item"
                 href="/categories/">目录</a>
                 
                 <a class="navbar-item"
                 href="/tags/">标签</a>
-                
-                <a class="navbar-item"
-                href="/about">关于我</a>
                 
             </div>
             
@@ -159,7 +159,7 @@
                 <span class="level-item has-text-grey">
                     
                     
-                    1 分钟 读完 (大约 124 个字)
+                    1 分钟 读完 (大约 117 个字)
                 </span>
                 
                 
@@ -173,12 +173,11 @@
         
         <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
             
-                设定hexo的「about」遇到的问题
+                设定hexo的「about」页面遇到的问题
             
         </h1>
         <div class="content">
-            <p>配置新主题后，发觉about界面是没配置的，<br>但是我在创建about页面的过程遇到一些问题，<br>点击链接显示<br>Cannot GET /about/  </p>
-<p>后来发觉生成指令hexo g 会出错<br>ERROR Process failed: about/index.md<br>TypeError: Cannot read property ‘utcOffset’ of null<br>上网查，配置文件里timezone我之前设成GMT+8是不行的<br>把timezone都设为Asia/Shanghai，<br>重新hexo g生成<br>再启用就搞掂</p>
+            <p>配置新主题后，发觉about界面是没配置的，后来创建about页面的过程遇到一些问题，点击链接显示<br>Cannot GET /about/<br>后来发现 hexo g 会报错<br>ERROR Process failed: about/index.md<br>TypeError: Cannot read property ‘utcOffset’ of null<br>上网查，配置文件里timezone我之前设成GMT+8是不行的<br>把timezone改为Asia/Shanghai<br>重新hexo g生成，再启用就搞掂</p>
 <p>参考链接：<a href="https://blog.csdn.net/liting1996/article/details/79024714" target="_blank" rel="noopener">https://blog.csdn.net/liting1996/article/details/79024714</a></p>
 
         </div>
@@ -265,7 +264,7 @@
             <div class="level-item has-text-centered" style="flex-shrink: 1">
                 <div>
                     
-                        <img class="image is-128x128 has-mb-6" src="/images/avatar.png" alt="刘永健">
+                        <img class="image is-128x128 has-mb-6" src="/css/images/avatar.jpg" alt="刘永健">
                     
                     
                     <p class="is-size-4 is-block">
@@ -418,14 +417,14 @@
             
             <a href="/2019/08/28/设定hexo的about界面遇到的问题/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="/images/thumbnail.svg" alt="设定hexo的「about」遇到的问题">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="设定hexo的「about」页面遇到的问题">
                 </p>
             </a>
             
             <div class="media-content">
                 <div class="content">
                     <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-08-28T02:45:33.000Z">2019-08-28</time></div>
-                    <a href="/2019/08/28/设定hexo的about界面遇到的问题/" class="title has-link-black-ter is-size-6 has-text-weight-normal">设定hexo的「about」遇到的问题</a>
+                    <a href="/2019/08/28/设定hexo的about界面遇到的问题/" class="title has-link-black-ter is-size-6 has-text-weight-normal">设定hexo的「about」页面遇到的问题</a>
                     <p class="is-size-7 is-uppercase">
                         
                     </p>
@@ -541,14 +540,14 @@
             
             <a href="/2019/08/28/设定hexo的about界面遇到的问题/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="/images/thumbnail.svg" alt="设定hexo的「about」遇到的问题">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="设定hexo的「about」页面遇到的问题">
                 </p>
             </a>
             
             <div class="media-content">
                 <div class="content">
                     <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-08-28T02:45:33.000Z">2019-08-28</time></div>
-                    <a href="/2019/08/28/设定hexo的about界面遇到的问题/" class="title has-link-black-ter is-size-6 has-text-weight-normal">设定hexo的「about」遇到的问题</a>
+                    <a href="/2019/08/28/设定hexo的about界面遇到的问题/" class="title has-link-black-ter is-size-6 has-text-weight-normal">设定hexo的「about」页面遇到的问题</a>
                     <p class="is-size-7 is-uppercase">
                         
                     </p>
@@ -654,6 +653,7 @@
             <div class="level-start has-text-centered-mobile">
                 <a class="footer-logo is-block has-mb-6" href="/">
                 
+                    Wingkin
                 
                 </a>
                 <p class="is-size-7">
